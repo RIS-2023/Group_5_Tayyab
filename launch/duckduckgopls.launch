@@ -1,0 +1,5 @@
+<launch>
+	<node name="duckduckgopls" pkg="duckietown_yolov5" type="detect_and_publish.py" output="screen"/>
+	<node name="duckduckgopls_ignore" pkg="duckietown_yolov5" type="detect.py" output="screen"/>
+</launch>
+
